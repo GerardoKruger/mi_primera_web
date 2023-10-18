@@ -1,0 +1,517 @@
+body {
+   border: 2px solid silver;
+   border-radius: 5px;
+   margin: 0;
+   padding: 0;
+   font-family: 'Kanit', sans-serif;
+}
+
+header {
+  
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #312e2e;
+   border-radius: 5px 5px 0px 0px;
+}
+
+.titulo {
+   display: flex;
+   align-items: center;
+}
+
+.titulo h1 {
+   color: silver;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header nav ul {
+   display: flex;
+   gap: 1em;
+   padding: 10px;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+header nav ul li a {
+   color: white;
+   background-color: gray;
+   border-radius: 5px;
+   padding: 2px;
+   border: 1px solid silver;
+   transition: font-size 0.3s;
+}
+
+header a i {
+   color: white;
+   font-size: 2em;
+   padding: 10px 20px;
+   transition: font-size 0.3s;
+}
+
+#check {
+   display: none;
+}
+
+.checkbtn {
+   font-size: 22px;
+   color: silver;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+}
+
+a:hover{
+   color: aqua;
+   font-size: 1.1em;
+}
+
+i:hover {
+   color: aqua;
+}
+
+.acerca-de h2 {
+   display: flex;
+justify-content: center;
+}
+
+.section-1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: gray;
+   width: 100%;
+}
+
+.section-2 img {
+   width: 100%;
+}
+
+.section-trabajos {
+   background-color: grey;
+}
+
+.section-trabajos h3 {
+   display: flex;
+   background-color: gray;
+   margin: 0;
+   padding: 10px;
+}
+
+.lista-trabajos {
+   display: flex;
+   align-items: center;
+  background-color: gray; 
+}
+
+.trabajos button {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   border: none;
+   padding-bottom: 10px;
+   background-color: gray;
+   font-size: 15px;
+}
+
+.trabajos h3, p {
+   justify-content: center;
+   padding: 5px;
+   width: 70%;
+}
+
+.trabajos img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ .contacto {
+background-color: gray;
+ }
+
+ .formulario-contacto {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.form-header {
+   text-align: center;
+   background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+   border-radius: 3px;
+  
+
+   width: 80%;
+   margin: 10px auto;
+   padding: 50px;
+}
+
+.form-header h1 {
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+.form-header p {
+ width: auto;
+}
+
+/* ------------- Formulario ------------- */
+
+.formulario {
+   background-color: #f6f7f8;
+   border: 1px solid #d6d9dc;
+   border-radius: 3px;
+
+   width: 80%;
+   padding: 50px;
+   margin: 10px 0 20px 0;
+}
+
+/* ------------- Campos del Formulario ------------- */
+
+.form-row {
+   margin-bottom: 40px;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+   background-color: #bdbdbd;
+   border: 0;
+   border-radius: 6px;
+   width: 100%;
+   padding: 7px;
+   font-size: 14px;
+}
+
+.form-row label {
+   margin-bottom: 3px;
+   text-align: initial;
+}
+
+.form-row textarea {
+   font-family: "Helvetica", "Arial", sans-serif;
+   font-size: 14px;
+
+
+   background-color: #bdbdbd;
+   border: 0;
+   border-radius: 6px;
+
+
+   min-height: 200px;
+   margin-bottom: 10px;
+   padding: 7px;
+   resize: none;
+
+
+   width: 100%;
+}
+
+
+.form-row button {
+   font-size: 16px;
+   font-weight: bold;
+
+
+   color: #ffffff;
+   background-color: #5995da;
+
+
+   border: none;
+   border-radius: 3px;
+
+
+   padding: 10px 40px;
+   cursor: pointer;
+}
+
+
+.form-row button:hover {
+   background-color: #76aeed;
+}
+
+
+.form-row button:active {
+   background-color: #407fc7;
+}
+
+.alertas {
+   color: red;
+}
+
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #312e2e;
+   border-radius: 0px 0px 5px 5px;
+   color: white;
+   padding: 10px;
+   border: 1px solid silver;
+   
+}
+
+footer h3 {
+   transition: font-size 0.3s;
+   padding-left: 30px;
+}
+
+footer ul {
+   display: flex;
+   gap: 1em;
+   padding: 5px;
+}
+
+footer ul li {
+   background-color: gray;
+   border-radius: 5px;
+   padding: 2px;
+   border: 1px solid silver;
+   transition: font-size 0.3s;
+   justify-items: flex-end;
+}
+
+footer h3:hover {
+   color: aqua;
+   font-size: 1.3em;
+}
+
+footer ul li:hover {
+   color: aqua;
+   font-size: 1.1em;
+}
+
+footer a i {
+   position: fixed;
+   right: 33px;
+   bottom: 33px;
+   font-size: 2em;
+   padding-left: 10px;
+   transition: font-size 0.3s;
+}
+
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+   /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+
+   body {
+      display: block;
+      width: auto;
+   }
+
+   header {
+      background-color: darkslategrey;
+   }
+
+   .section-1 {
+      display: grid;
+
+      justify-content: center;
+   }
+
+.acerca-de {
+   display: grid;
+   text-align: center;
+   justify-items: center;
+
+}
+
+   .parrafo-1 .parrafo2 {
+      width: 100%;
+      text-align: center;
+      display: block;
+      justify-content: center;
+   }
+
+
+
+   .acerca-imagen {
+      text-align: center;
+   }
+
+   .section-trabajos {
+      justify-content: center;
+   }
+
+.lista-trabajos {
+
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.checkbtn{
+   display: block;
+}
+
+#encabezado ul {
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   background-color: silver;
+   text-align: center;
+
+   top: 70px;
+   left: 100%;
+   transition: all 0.5s;
+}
+
+#check:checked ~ ul {
+   left: 0%;
+   display: block;
+   flex-direction: column;
+}
+
+#encabezado nav ul li {
+   display: block;
+   margin: 50px 0;
+   line-height: 30px;
+}
+
+#encabezado nav ul li a{
+   color: black;
+   background-color: silver;
+}
+
+#check:checked ~ .checkbtn {
+   color: black;
+}
+
+.contacto {
+   background-color: gray;
+    }
+   
+    .formulario-contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   
+   .form-header {
+      text-align: center;
+      background-color: #f6f7f8;
+       border: 1px solid #d6d9dc;
+      border-radius: 3px;
+     
+   
+      width: 80%;
+      margin: 10px auto;
+      padding: 50px;
+   }
+   
+   .form-header h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+   }
+   
+   .form-header p {
+    width: auto;
+   }
+   
+   /* ------------- Formulario ------------- */
+   
+   .formulario {
+      background-color: #f6f7f8;
+      border: 1px solid #d6d9dc;
+      border-radius: 3px;
+   
+      width: 80%;
+      padding: 50px;
+      margin: 30px 0 40px 0;
+   }
+   
+   /* ------------- Campos del Formulario ------------- */
+   
+   .form-row {
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+   
+   .form-row input[type="text"],
+   .form-row input[type="email"] {
+      background-color: #bdbdbd;
+      border: 0;
+      border-radius: 6px;
+      width: 100%;
+      padding: 7px;
+      font-size: 14px;
+   }
+   
+   .form-row label {
+      margin-bottom: 3px;
+      text-align: initial;
+   }
+   
+   .form-row textarea {
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 14px;
+   
+   
+      background-color: #bdbdbd;
+      border: 0;
+      border-radius: 6px;
+   
+   
+      min-height: 200px;
+      margin-bottom: 10px;
+      padding: 7px;
+      resize: none;
+   
+   
+      width: 100%;
+   }
+   
+   
+   .form-row button {
+      font-size: 16px;
+      font-weight: bold;
+   
+   
+      color: #ffffff;
+      background-color: #5995da;
+   
+   
+      border: none;
+      border-radius: 3px;
+   
+   
+      padding: 10px 40px;
+      cursor: pointer;
+   }
+   
+   
+   .form-row button:hover {
+      background-color: #76aeed;
+   }
+   
+   
+   .form-row button:active {
+      background-color: #407fc7;
+   }
+
+   footer {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+   
+   }
+
+}
