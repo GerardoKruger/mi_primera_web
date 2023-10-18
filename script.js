@@ -30,6 +30,13 @@ function cambiarParrafo(nombre, lugar, palabra){
 parrafo.innerText = cambiarParrafo(nombre, lugar, palabra);
 */
 
+let menu_responsive = document.querySelector(".checkbtn");
+
+menu_responsive.onclick = function () {
+    navBar = document.querySelector(".lista");
+    navBar.classList.toggle("active");
+};
+
 const form = document.getElementById("form");
 const nombre2 = document.getElementById("nombre");
 const parrafo2 = document.getElementById("alertas");
