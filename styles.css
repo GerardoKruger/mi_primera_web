@@ -390,6 +390,11 @@ footer a i {
 
 #check:checked ~ .checkbtn {
    color: black;
+
+}
+
+.lista.active {
+   height: 100vh;
 }
 
 .contacto {
