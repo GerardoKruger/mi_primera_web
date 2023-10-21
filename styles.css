@@ -255,12 +255,13 @@ background-color: gray;
 footer {
    display: flex;
    align-items: center;
-   justify-content: space-between;
+ justify-content: first baseline;
    background-color: #312e2e;
    border-radius: 0px 0px 5px 5px;
    color: white;
    padding: 10px;
    border: 1px solid silver;
+   gap: 30%;
    
 }
 
@@ -272,16 +273,18 @@ footer h3 {
 }
 
 footer ul {
-   display: flex;
+ display: flex;
    gap: 1em;
    padding: 5px;
+   justify-content: center;
 }
 
 footer ul li {
    color: #FF6F61;
-   
-   justify-items: flex-end;
+
+   align-items: center;
    font-size: 30px;
+
 }
 
 footer h3:hover {
@@ -294,7 +297,7 @@ footer ul li:hover {
    transform: scale(1.5);
 }
 
-footer a i {
+.icon-fixed {
    position: fixed;
    right: 33px;
    bottom: 33px;
