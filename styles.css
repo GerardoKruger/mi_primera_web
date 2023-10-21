@@ -41,10 +41,10 @@ ul {
 
 header nav ul li a {
    color: white;
-   background-color: gray;
+   
    border-radius: 5px;
    padding: 2px;
-   border: 1px solid silver;
+   
    transition: font-size 0.3s;
 }
 
@@ -70,13 +70,11 @@ header a i {
 }
 
 a:hover{
-   color: aqua;
+   
    font-size: 1.1em;
 }
 
-i:hover {
-   color: aqua;
-}
+
 
 .acerca-de h2 {
    display: flex;
@@ -146,7 +144,7 @@ background-color: gray;
 
 .form-header {
    text-align: center;
-   background-color: #f6f7f8;
+   background-color: #3c3e41;
     border: 1px solid #d6d9dc;
    border-radius: 3px;
   
@@ -168,11 +166,12 @@ background-color: gray;
 /* ------------- Formulario ------------- */
 
 .formulario {
-   background-color: #f6f7f8;
+   background-color: #9c9d9e;
    border: 1px solid #d6d9dc;
    border-radius: 3px;
+   justify-content: center;
 
-   width: 80%;
+   width: 85%;
    padding: 50px;
    margin: 10px 0 20px 0;
 }
@@ -266,8 +265,10 @@ footer {
 }
 
 footer h3 {
+   font-size: 20px;
    transition: font-size 0.3s;
    padding-left: 30px;
+   color: #FF6F61;
 }
 
 footer ul {
@@ -277,22 +278,20 @@ footer ul {
 }
 
 footer ul li {
-   background-color: gray;
-   border-radius: 5px;
-   padding: 2px;
-   border: 1px solid silver;
-   transition: font-size 0.3s;
+   color: #FF6F61;
+   
    justify-items: flex-end;
+   font-size: 30px;
 }
 
 footer h3:hover {
-   color: aqua;
+   
    font-size: 1.3em;
 }
 
 footer ul li:hover {
-   color: aqua;
-   font-size: 1.1em;
+
+   transform: scale(1.5);
 }
 
 footer a i {
@@ -302,6 +301,8 @@ footer a i {
    font-size: 2em;
    padding-left: 10px;
    transition: font-size 0.3s;
+   color: #FF6F61;
+   justify-content: center;
 }
 
 
